@@ -7,9 +7,10 @@ export default function Contact() {
                 <h2 className='text-3xl pb-2 text-center'>Contact Me</h2>
                 <br />
                 <p className='m-3'>
-                    Feel free to contact me with any questions or comments you may have!
-                    
-                    Below are links to my resume, email, GitHub profile, and LinkedIn profile. I look forward to hearing from you!
+                    Feel free to contact me with any questions or comments you may have! I am currently looking for full time employment as a GIS Analyst or Web Developer and am also open to freelance work. Currently, I am located in the Kansas City area but am open to relocation and/or remote work. I am available to start immediately. Below are links to my resume, email, GitHub profile, and LinkedIn profile.
+                    <br />
+                    <br />
+                    Thank you for your time, I look forward to hearing from you!
                 </p>
                 <br />
                 <a href="https://drive.google.com/file/d/1EyC2ufT0VbCcwzuP3k095_RZ2zW2Sob-/view?usp=sharing" target='_blank' className='m-3 decoration-blue-500 text-blue-500 underline'>Resume</a>
