@@ -17,6 +17,3 @@
   ![Alt text](public/about.png)
   ![Alt text](public/contact.png)
   ![Alt text](public/portfolio.png)
-
-    ("predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",)
