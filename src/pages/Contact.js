@@ -21,7 +21,7 @@ export default function Contact() {
                 <br />
                 <a href='https://www.linkedin.com/in/nicholas-smith-721621220/' className='m-3 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
                 <a href='https://github.com/ctvb' className='m-3 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-github"></i></a>
-            {/* <form className='w-100'>                    
+            <form className='w-100 m-3'>                    
 
                     <div class="grid items-end gap-6 mt-2 md:grid-cols-3">
                         <div class="relative z-0">
@@ -41,7 +41,7 @@ export default function Contact() {
                         <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 dark:bg-violet-400 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Submit</button>
                     </div>
 
-            </form> */}
+            </form>
             </div>
             
         </div>

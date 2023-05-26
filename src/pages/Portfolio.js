@@ -10,7 +10,7 @@ export default function Portfolio() {
                 </p>
                 <br/>
                 <p>
-                    These projects were made using CSS, Express.js, HTML, JavaScript, MySQL, Node.js, React.js, and Mongodb. I am currently in the process of learning more languages and frameworks.
+                    These projects were made using CSS, Express.js, HTML, JavaScript, MySQL, Node.js, React.js, and Mongodb. I am currently in the process of learning more languages and frameworks. The frameworks that I have use so far include Bootstrap, Bulma, and Tailwind.
                 </p>
                 <br/>
                 <p>
