@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import logo from '../img/logo2.png';
 
 export default function Navbar({currentPage, handlePageChange}) {
     return (
 <nav className="border-gray-200 bg-violet-400">
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="!#" className="flex items-center">
-                <img src="logo2.png" className="h-8 mr-3" alt="Flowbite Logo" />
+                    <img src={logo} className="h-8 mr-3" alt="A Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Nick</span>
             </a>
         <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400 hover:bg-gray-700 focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">

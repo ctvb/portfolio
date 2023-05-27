@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import realme from '../img/realme.jpg';
 
 export default function About() {
     return (
         <div className="px-16 grid md:grid-cols-3 sm:grid-cols-1 gap-4">
             <div className="p-3">
-                <img className="rounded-full w-96 h-auto shadow-sm border-2 p-3" src="/realme.jpg" alt="image description"/>
+                <img className="rounded-full w-96 h-auto shadow-sm border-2 p-3" src={realme} alt="image description"/>
             </div>
             <div className="p-3 col-span-2">
                 <h2 className='text-3xl pb-2'>About Me</h2>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 export default function Contact() {
     return (
         <div className="px-16 flex flex-row justify-center align-baseline">

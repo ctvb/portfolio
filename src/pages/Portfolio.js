@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import cantdecide from '../img/cantdecide.png';
+import chatterbox from '../img/chatterbox.png';
+import habittracker from '../img/habittracker.png';
+import weather from '../img/weather.png';
+import techtalk from '../img/techtalk.png';
 
 export default function Portfolio() {
     return (
@@ -21,7 +26,7 @@ export default function Portfolio() {
             </div>
             <div className="p-2 bg-stone-100">
                 <h3 className='text-2xl p-3 text-center'>Can't Decide</h3>
-                <a href="https://ctvb.github.io/cantdecide/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src="/cantdecide.png" alt="Hamburgers wearing hats" /></a>
+                <a href="https://ctvb.github.io/cantdecide/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={cantdecide} alt="Hamburgers wearing hats" /></a>
                 <p className='p-6'>
                     "Honey, what do you want for dinner?"
                 </p>
@@ -40,7 +45,7 @@ export default function Portfolio() {
             </div>
             <div className="p-2 bg-stone-100">
                 <h3 className='text-2xl p-3 text-center'>ChatterBox</h3>
-                <a href="https://infinite-retreat-60959.herokuapp.com/signup" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src="/chatterbox.png" alt="A sign-up page" /></a>
+                <a href="https://infinite-retreat-60959.herokuapp.com/signup" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={chatterbox} alt="A sign-up page" /></a>
                 <p className='p-6'>
                     Do you want to talk to your friends but they're too far away?? Well, now you can!
                 </p>
@@ -56,7 +61,7 @@ export default function Portfolio() {
             </div>
             <div className="p-2 bg-stone-100">
                 <h3 className='text-2xl p-3 text-center'>Habit Tracker</h3>
-                <a href="https://whispering-gorge-05814.herokuapp.com/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src="/habittracker.png" alt="A dashboard page" /></a>
+                <a href="https://whispering-gorge-05814.herokuapp.com/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={habittracker} alt="A dashboard page" /></a>
                 <p className='p-6'>
                     Do you want healthier habits? Don't we all! Well, now you can track your habits and see how you're doing with this Habit Tracker!
                 </p>
@@ -69,7 +74,7 @@ export default function Portfolio() {
             </div>
             <div className="p-2 bg-stone-100">
                 <h3 className='text-2xl p-3 text-center'>Tech Talk</h3>
-                <a href="https://floating-woodland-04496.herokuapp.com/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src="/techtalk.png" alt="A blog page" /></a>
+                <a href="https://floating-woodland-04496.herokuapp.com/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={techtalk} alt="A blog page" /></a>
                 <p className='p-6'>
                     Tech Talk is a blog site where you can post about anything tech related! After you create an account you can create posts and comment on other peoples posts.
                 </p>
@@ -84,7 +89,7 @@ export default function Portfolio() {
             </div>
             <div className="p-2 bg-stone-100">
                 <h3 className='text-2xl p-3 text-center'>Weather Dashboard</h3>
-                <a href="https://ctvb.github.io/weather/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src="/weather.png" alt="A dashboard page" /></a>
+                <a href="https://ctvb.github.io/weather/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={weather} alt="A dashboard page" /></a>
                 <p className='p-6'>
                     Have you ever needed to know what the weather was going to be like? Of course you have! Well, now you can with this Weather Dashboard!
                 </p>
