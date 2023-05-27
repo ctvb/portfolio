@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import cantdecide from '../img/cantdecide.png';
 import chatterbox from '../img/chatterbox.png';
 import habittracker from '../img/habittracker.png';
@@ -13,11 +13,9 @@ export default function Portfolio() {
                 <p>
                     The following are some of the projects that I have worked on so far.
                 </p>
-                <br/>
                 <p>
                     These projects were made using CSS, Express.js, HTML, JavaScript, MySQL, Node.js, React.js, and Mongodb. I am currently in the process of learning more languages and frameworks. The frameworks that I have use so far include Bootstrap, Bulma, and Tailwind.
                 </p>
-                <br/>
                 <p>
                     Would you like to visit my
                     <a href="https://github.com/ctvb" target='_blank' className='m-3 decoration-blue-500 text-blue-500 underline'><i class="fa-brands fa-github"></i>GitHub<i class="fa-brands fa-github"></i></a>
@@ -27,20 +25,24 @@ export default function Portfolio() {
             <div className="p-2 bg-stone-100">
                 <h3 className='text-2xl p-3 text-center'>Can't Decide</h3>
                 <a href="https://ctvb.github.io/cantdecide/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={cantdecide} alt="Hamburgers wearing hats" /></a>
-                <p className='p-6'>
-                    "Honey, what do you want for dinner?"
-                </p>
-                <p className='p-6 pt-1'>
-                    "I don't know, what do YOU want?"
-                </p>
-                <p className='p-6 pt-1'>
-                    "I don't know, that's why I asked you!"
-                </p>
-                <p className='p-6 pt-1'>
-                    Has this ever happened to you? Avoid the trouble of ending up in an endless loop of "What do you want to eat?", avoid ending up at Applebees...again, avoid another argument, download Can't Decide now!"
-                </p>
-                <div className='text-center'>
-                    <a href="https://github.com/ctvb/cantdecide" className='m-20 p-5 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-github"></i></a>
+                <div className='flex flex-col justify-between'>
+                    <div className=''>
+                        <p className='p-6'>
+                            "Honey, what do you want for dinner?"
+                        </p>
+                        <p className='p-6 pt-1'>
+                            "I don't know, what do YOU want?"
+                        </p>
+                        <p className='p-6 pt-1'>
+                            "I don't know, that's why I asked you!"
+                        </p>
+                        <p className='p-6 pt-1'>
+                            Has this ever happened to you? Avoid the trouble of ending up in an endless loop of "What do you want to eat?", avoid ending up at Applebees...again, avoid another argument, download Can't Decide now!"
+                        </p>
+                    </div>
+                    <div className='text-center'>
+                        <a href="https://github.com/ctvb/cantdecide" className='m-20 p-5 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-github"></i></a>
+                    </div>
                 </div>
             </div>
             <div className="p-2 bg-stone-100">
@@ -78,11 +80,6 @@ export default function Portfolio() {
                 <p className='p-6'>
                     Tech Talk is a blog site where you can post about anything tech related! After you create an account you can create posts and comment on other peoples posts.
                 </p>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
                 <div className='text-center'>
                     <a href="https://github.com/ctvb/techblog" className='m-20 p-5 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-github"></i></a>
                 </div>

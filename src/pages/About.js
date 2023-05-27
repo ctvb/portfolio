@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import realme from '../img/realme.jpg';
 
 export default function About() {
     return (
-        <div className="px-16 grid md:grid-cols-3 sm:grid-cols-1 gap-4">
+        <div className="px-16 grid md:grid-cols-3 sm:grid-cols-1 gap-4 min-h-3/4">
             <div className="p-3">
                 <img className="rounded-full w-96 h-auto shadow-sm border-2 p-3" src={realme} alt="image description"/>
             </div>

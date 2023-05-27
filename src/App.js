@@ -5,15 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Navbar from './components/navbar';
-// import realme from './img/realme.jpg';
-
-// const realme = (e) => {
-//     return (
-//         <div className="realme-container">
-//             <img src={realme} alt="" />
-//         </div>
-//     );
-// }
+import Footer from './components/footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -35,9 +27,10 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='flex flex-col h-screen justify-between'>
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
+      <Footer currentPage={currentPage} handlePageChange={handlePageChange}/>
     </div>
   );
 }

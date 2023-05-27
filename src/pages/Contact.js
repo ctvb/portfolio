@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 
 export default function Contact() {
@@ -16,9 +16,7 @@ export default function Contact() {
                 <br/>
                 <a href="https://drive.google.com/file/d/1EyC2ufT0VbCcwzuP3k095_RZ2zW2Sob-/view?usp=sharing" target='_blank' className='m-3 decoration-blue-500 text-blue-500 underline'>Resume</a>
                 <br/>
-                {/* <h3 className='m-3'> */}
                     <a href="mailto:deenicks@hotmail.com" className='m-3 decoration-blue-500 text-blue-500 underline'>deenicks@hotmail.com</a>
-                {/* </h3> */}
                 <br/>
                 <a href='https://www.linkedin.com/in/nicholas-smith-721621220/' className='m-3 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
                 <a href='https://github.com/ctvb' className='m-3 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-github"></i></a>
