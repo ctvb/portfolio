@@ -73,11 +73,11 @@ export default function Portfolio() {
                 <p className='p-6'>
                     Tech Talk is a blog site where you can post about anything tech related! After you create an account you can create posts and comment on other peoples posts.
                 </p>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 <div className='text-center'>
                     <a href="https://github.com/ctvb/techblog" className='m-20 p-5 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-github"></i></a>
                 </div>

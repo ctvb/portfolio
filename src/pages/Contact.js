@@ -5,20 +5,20 @@ export default function Contact() {
         <div className="px-16 flex flex-row justify-center align-baseline">
             <div className="w-100 mx-auto p-6">
                 <h2 className='text-3xl pb-2 text-center'>Contact Me</h2>
-                <br />
+                <br/>
                 <p className='m-3'>
                     Feel free to contact me with any questions or comments you may have! I am currently looking for full time employment as a GIS Analyst or Web Developer and am also open to freelance work. Currently, I am located in the Kansas City area but am open to relocation and/or remote work. I am available to start immediately. Below are links to my resume, email, GitHub profile, and LinkedIn profile.
-                    <br />
-                    <br />
+                    <br/>
+                    <br/>
                     Thank you for your time, I look forward to hearing from you!
                 </p>
-                <br />
+                <br/>
                 <a href="https://drive.google.com/file/d/1EyC2ufT0VbCcwzuP3k095_RZ2zW2Sob-/view?usp=sharing" target='_blank' className='m-3 decoration-blue-500 text-blue-500 underline'>Resume</a>
-                <br />
+                <br/>
                 {/* <h3 className='m-3'> */}
                     <a href="mailto:deenicks@hotmail.com" className='m-3 decoration-blue-500 text-blue-500 underline'>deenicks@hotmail.com</a>
                 {/* </h3> */}
-                <br />
+                <br/>
                 <a href='https://www.linkedin.com/in/nicholas-smith-721621220/' className='m-3 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
                 <a href='https://github.com/ctvb' className='m-3 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-github"></i></a>
             <form className='w-100 m-3'>                    
@@ -40,10 +40,8 @@ export default function Contact() {
                     <div>
                         <button type="button" class="text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 dark:bg-violet-400 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Submit</button>
                     </div>
-
             </form>
             </div>
-            
         </div>
     )
 }

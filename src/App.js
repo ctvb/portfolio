@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
+import logo from './logo2.png';
 import './App.css';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div>
-      <Navbar handlePageChange={handlePageChange}></Navbar>
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
     </div>
   );
