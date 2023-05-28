@@ -1,0 +1,13 @@
+.linkedin {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #ff0000, #00ff00);
+}
+
+.github {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #ff0000, #000000, #00ff00);
+}

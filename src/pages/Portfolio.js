@@ -13,13 +13,17 @@ export default function Portfolio() {
                 <p>
                     The following are some of the projects that I have worked on so far.
                 </p>
+                <br/>
                 <p>
                     These projects were made using CSS, Express.js, HTML, JavaScript, MySQL, Node.js, React.js, and Mongodb. I am currently in the process of learning more languages and frameworks. The frameworks that I have use so far include Bootstrap, Bulma, and Tailwind.
                 </p>
+                <br />
                 <p>
+                    <div className=''>
                     Would you like to visit my
-                    <a href="https://github.com/ctvb" target='_blank' className='m-3 decoration-blue-500 text-blue-500 underline'><i class="fa-brands fa-github"></i>GitHub<i class="fa-brands fa-github"></i></a>
-                    profile?
+                        <a href="https://github.com/ctvb" target='_blank' className='text-white bg-gradient-to-r from-emerald-400 via-teal-300 to-violet-500 font-medium rounded-full text-sm px-5 py-2.5 text-center m-3'><i class="fa-brands fa-github"></i>GitHub<i class="fa-brands fa-github"></i></a>
+                        profile?
+                    </div>
                 </p>
             </div>
             <div className="p-2 bg-stone-100">
@@ -45,7 +49,7 @@ export default function Portfolio() {
                     </div>
                 </div>
             </div>
-            <div className="p-2 bg-stone-100">
+            <div className="p-2 bg-stone-100 flex flex-col justify-between">
                 <h3 className='text-2xl p-3 text-center'>ChatterBox</h3>
                 <a href="https://infinite-retreat-60959.herokuapp.com/signup" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={chatterbox} alt="A sign-up page" /></a>
                 <p className='p-6'>
@@ -61,7 +65,7 @@ export default function Portfolio() {
                     <a href="https://github.com/ctvb/Chatter-Box" className='m-20 p-5 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-            <div className="p-2 bg-stone-100">
+            <div className="p-2 bg-stone-100 flex flex-col justify-between">
                 <h3 className='text-2xl p-3 text-center'>Habit Tracker</h3>
                 <a href="https://whispering-gorge-05814.herokuapp.com/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={habittracker} alt="A dashboard page" /></a>
                 <p className='p-6'>
@@ -74,17 +78,24 @@ export default function Portfolio() {
                     <a href="https://github.com/samanthaahn/magic-list" className='m-20 p-5 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-            <div className="p-2 bg-stone-100">
+            <div className="p-2 bg-stone-100 flex flex-col justify-between">
                 <h3 className='text-2xl p-3 text-center'>Tech Talk</h3>
-                <a href="https://floating-woodland-04496.herokuapp.com/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={techtalk} alt="A blog page" /></a>
-                <p className='p-6'>
-                    Tech Talk is a blog site where you can post about anything tech related! After you create an account you can create posts and comment on other peoples posts.
-                </p>
+                <a href="https://floating-woodland-04496.herokuapp.com/" target='_blank'>
+                    <img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={techtalk} alt="A blog page" />
+                </a>
+                <div className='flex-grow'>
+                    <p className='p-6'>
+                        Tech Talk is a blog site where you can post about anything tech related! After you create an account, you can create posts and comment on other people's posts.
+                    </p>
+                </div>
                 <div className='text-center'>
-                    <a href="https://github.com/ctvb/techblog" className='m-20 p-5 text-violet-400 text-2xl' target='_blank'><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/ctvb/techblog" className='m-20 p-5 text-violet-400 text-2xl' target='_blank'>
+                        <i className="fa-brands fa-github"></i>
+                    </a>
                 </div>
             </div>
-            <div className="p-2 bg-stone-100">
+
+            <div className="p-2 bg-stone-100 flex flex-col justify-between">
                 <h3 className='text-2xl p-3 text-center'>Weather Dashboard</h3>
                 <a href="https://ctvb.github.io/weather/" target='_blank'><img className="rounded-md w-auto h-46 shadow-sm border-2 p-3 mx-auto" src={weather} alt="A dashboard page" /></a>
                 <p className='p-6'>
