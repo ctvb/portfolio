@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from '../img/logo2.png';
+import logo from '../img/logo1.png';
 
 export default function Navbar({ handlePageChange}) {
     return (
-        <nav className="border-gray-200 bg-gradient-to-r from-emerald-400 via-teal-300 to-violet-500">
+        <nav className="border-gray-200 bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300">
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="!#" className="flex items-center">
                     <img src={logo} className="h-8 mr-3" alt="A Logo" />
