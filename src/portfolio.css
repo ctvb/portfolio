@@ -1,13 +1,21 @@
-.linkedin {
+.linkedinp {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #F0ABFC, #A855F7, #A5B4FC);
+}
+
+.linkedinp:hover {
     background-image: linear-gradient(to right, #FDE047, #FBBF24, #FCA5A5);
 }
 
-.github {
+.githubp {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #F0ABFC, #A855F7, #A5B4FC);
+}
+
+.githubp:hover {
     background-image: linear-gradient(to right, #FDE047, #FBBF24, #FCA5A5);
 }

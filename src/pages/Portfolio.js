@@ -18,11 +18,11 @@ export default function Portfolio() {
                 <p>
                     These projects were made using CSS, Express.js, HTML, JavaScript, MySQL, Node.js, React.js, and Mongodb. I am currently in the process of learning more languages and frameworks. The frameworks that I have use so far include Bootstrap, Bulma, and Tailwind.
                 </p>
-                <br />
+                <br/>
                 <p>
                     <div className=''>
                     Would you like to visit my
-                        <a href="https://github.com/ctvb" target='_blank' className='text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-5 py-2.5 text-center m-3 hover:bg-purple-500 hover:from-indigo-300 hover:via-purple-500 hover:to-fuchsia-300'><i class="fa-brands fa-github"></i> GitHub <i class="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/ctvb" target='_blank' className='text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-5 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300'><i class="fa-brands fa-github"></i> GitHub <i class="fa-brands fa-github"></i></a>
                         profile?
                     </div>
                 </p>
@@ -46,7 +46,7 @@ export default function Portfolio() {
                         </p>
                     </div>
                     <div className='text-center'>
-                        <a href="https://github.com/ctvb/cantdecide" className='m-20 p-5 text-violet-400 text-2xl github' target='_blank'><i class="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/ctvb/cantdecide" className='m-20 p-5 text-violet-400 text-2xl githubp' target='_blank'><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ export default function Portfolio() {
                     ChatterBox is your one-stop-shop for all your chatting needs! With ChatterBox you can create an account, log in, and chat with your friends!
                 </p>
                 <div className='text-center'>
-                    <a href="https://github.com/ctvb/Chatter-Box" className='m-20 p-5 text-violet-400 text-2xl github' target='_blank'><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/ctvb/Chatter-Box" className='m-20 p-5 text-violet-400 text-2xl githubp' target='_blank'><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
             <div className="p-2 bg-stone-100 flex flex-col justify-between">
@@ -76,7 +76,7 @@ export default function Portfolio() {
                     This habit tracker allows you to make your schedule on the calendar, give yourself daily and weekly goals, as well as log how you're feeling in the diary.
                 </p>
                 <div className='text-center'>
-                    <a href="https://github.com/samanthaahn/magic-list" className='m-20 p-5 text-violet-400 text-2xl github' target='_blank'><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/samanthaahn/magic-list" className='m-20 p-5 text-violet-400 text-2xl githubp' target='_blank'><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
             <div className="p-2 bg-stone-100 flex flex-col justify-between">
@@ -90,7 +90,7 @@ export default function Portfolio() {
                     </p>
                 </div>
                 <div className='text-center'>
-                    <a href="https://github.com/ctvb/techblog" className='m-20 p-5 text-violet-400 text-2xl github' target='_blank'>
+                    <a href="https://github.com/ctvb/techblog" className='m-20 p-5 text-violet-400 text-2xl githubp' target='_blank'>
                         <i className="fa-brands fa-github"></i>
                     </a>
                 </div>
@@ -106,7 +106,7 @@ export default function Portfolio() {
                     Simply enter the city and state that you want weather information on and <strong>BAM!</strong> You have the weather!
                 </p>
                 <div className='text-center'>
-                    <a href="https://github.com/ctvb/weather" className='m-20 p-5 text-violet-400 text-2xl github' target='_blank'><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/ctvb/weather" className='m-20 p-5 text-violet-400 text-2xl githubp' target='_blank'><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
         </div>

@@ -14,15 +14,15 @@ export default function Contact() {
                     Thank you for your time, I look forward to hearing from you!
                 </p>
                 <br />
-                <a href="https://drive.google.com/file/d/1EyC2ufT0VbCcwzuP3k095_RZ2zW2Sob-/view?usp=sharing" target="_blank" className="text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:bg-purple-500 hover:from-indigo-300 hover:via-purple-500 hover:to-fuchsia-300">Resume</a>
+                <a href="https://drive.google.com/file/d/1EyC2ufT0VbCcwzuP3k095_RZ2zW2Sob-/view?usp=sharing" target="_blank" className="text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300">Resume</a>
                 <br />
                 <div className='pt-9'>
-                    <a href="mailto:deenicks@hotmail.com" className='text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:bg-purple-500 hover:from-indigo-300 hover:via-purple-500 hover:to-fuchsia-300'>deenicks@hotmail.com</a>
+                    <a href="mailto:deenicks@hotmail.com" className='text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300 transition delay-1000 duration-300 ease-in-out'>deenicks@hotmail.com</a>
                 </div>
                 <br />
                 <div className="">
-                    <a href='https://www.linkedin.com/in/nicholas-smith-721621220/' className='ml-3 mr-3 text-2xl linkedin' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
-                    <a href='https://github.com/ctvb' className='ml-3 text-2xl github' target='_blank'><i class="fa-brands fa-github"></i></a>
+                    <a href='https://www.linkedin.com/in/nicholas-smith-721621220/' className='ml-3 mr-3 text-2xl linkedinc' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+                    <a href='https://github.com/ctvb' className='ml-3 text-2xl githubc' target='_blank'><i class="fa-brands fa-github"></i></a>
                 </div>
             {/* <form className='w-100 m-3'>                    
                     <div class="grid items-end gap-6 mt-2 md:grid-cols-3">

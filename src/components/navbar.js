@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/logo1.png';
+import logo from '../img/logo.png';
 
 export default function Navbar({ handlePageChange}) {
     return (
@@ -28,7 +28,7 @@ export default function Navbar({ handlePageChange}) {
                     <a href="#Contact" onClick={() => handlePageChange('Contact')} className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Contact</a>
                 </li>
                 <li>
-                    <a href="https://drive.google.com/file/d/1EyC2ufT0VbCcwzuP3k095_RZ2zW2Sob-/view?usp=sharing" target='_blank' className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Resume</a>
+                    <a href="https://docs.google.com/document/d/1atCO19QP9YEqUXbLtkIZPO6-DZLvNfpV3lOKQuuv2ws/edit?usp=sharing" target='_blank' className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent">Resume</a>
                 </li>
             </ul>
         </div>
