@@ -14,7 +14,8 @@ export default function Contact() {
                     Thank you for your time, I look forward to hearing from you!
                 </p>
                 <br />
-                <a href="https://drive.google.com/file/d/1EyC2ufT0VbCcwzuP3k095_RZ2zW2Sob-/view?usp=sharing" target="_blank" className="text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300">Resume</a>
+                {/* <a href="https://drive.google.com/file/d/1EyC2ufT0VbCcwzuP3k095_RZ2zW2Sob-/view?usp=sharing" target="_blank" className="text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300">Resume</a> */}
+                <a href="https://docs.google.com/document/d/1atCO19QP9YEqUXbLtkIZPO6-DZLvNfpV3lOKQuuv2ws/edit?usp=sharing" target="_blank" className="text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300">Resume</a>
                 <br />
                 <div className='pt-9'>
                     <a href="mailto:deenicks@hotmail.com" className='text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300 transition delay-1000 duration-300 ease-in-out'>deenicks@hotmail.com</a>
