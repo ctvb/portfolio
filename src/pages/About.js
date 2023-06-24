@@ -33,7 +33,7 @@ export default function About() {
                 </p>
                 <br/>
                 <p>
-                    Driven by a desire to expand my skill set, I recently completed a Coding Certificate program at The University of California, Los Angeles (UCLA) Coding Bootcamp. This intensive program enhanced my expertise in full-stack development, frontend and backend programming, and various web development technologies such as AWS, C#, CSS, Express, GraphQL, Heroku, HTML, Java, JavaScript, MySQL, Node.js, NoSQL, Python, R, React, and State. I am well-versed in using Git and GitHub for version control and collaboration. In this course I created web pages with functionalities such as weather forecasting, restaurant recommendations, and chat interfaces and am looking to work on more projects in the future.
+                    Driven by a desire to expand my skill set, I recently completed a Coding Certificate program at The University of California, Los Angeles (UCLA) Coding Bootcamp. This intensive program enhanced my expertise in full-stack development, frontend and backend programming, and various web development technologies such as CSS, Express, GraphQL, Heroku, HTML, JavaScript, MySQL, Node.js, NoSQL, R, React, and State. I am well-versed in using Git and GitHub for version control and collaboration. In this course I created web pages with functionalities such as weather forecasting, restaurant recommendations, and chat interfaces and am looking to work on more projects in the future. Currenly I am learning AWS, C#, Java, Python, React Native, and Ruby.
                 </p>
                 <br/>
                 <p>
