@@ -15,10 +15,11 @@ export default function Contact() {
                 </p>
                 <br />
                 {/* <a href="https://drive.google.com/file/d/1EyC2ufT0VbCcwzuP3k095_RZ2zW2Sob-/view?usp=sharing" target="_blank" className="text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300">Resume</a> */}
-                <a href="https://drive.google.com/file/d/1vujUbpXaQq157i4x7vaB4JR1SqP_OJrr/view?usp=sharing" target="_blank" className="text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300">Resume</a>
+                <a href="https://drive.google.com/file/d/1PAIzWbVSMx0J8DB4oki_fQq0tyq_ED57/view?usp=sharing" target="_blank" className="text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300">Resume</a>
+                {/* Download resume as PDF, upload back to Google Drive, Share, Share, Copy link */}
                 <br />
                 <div className='pt-9'>
-                    <a href="mailto:deenicks@hotmail.com" className='text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300 transition delay-1000 duration-300 ease-in-out'>deenicks@hotmail.com</a>
+                    <a href="mailto:nicksmith2024@outlook.com" className='text-white bg-gradient-to-r from-fuchsia-300 via-purple-500 to-indigo-300 font-medium rounded-full text-sm px-8 py-2.5 text-center m-3 hover:from-yellow-300 hover:via-orange-400 hover:to-red-300 transition delay-1000 duration-300 ease-in-out'>nicksmith2024@outlook.com</a>
                 </div>
                 <br />
                 <div className="">
